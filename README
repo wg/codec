@@ -1,0 +1,26 @@
+Java binary data codecs
+
+  A collection of high-performance binary data codecs:
+
+    Base16    - AKA hex
+    Base64    - standard base64
+    Base64Url - URL-safe base64
+
+  The Base64 codec is designed to handle base64 without line splitting
+  and with optional padding. Alternative character tables may be supplied
+  to implement modified base64 schemes such as the URL-safe variant.
+
+  Join the lambdaWorks-OSS Google Group to discuss this project:
+
+    http://groups.google.com/group/lambdaworks-oss
+    lambdaworks-oss@googlegroups.com
+
+Maven Artifacts
+
+  Releases are available in the maven central repository:
+
+  <dependency>
+    <groupId>com.lambdaworks</groupId>
+    <artifactId>codec</artifactId>
+    <version>1.0.0</version>
+  </dependency>
